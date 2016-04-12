@@ -1,6 +1,6 @@
 {% extends 'layout.tpl' %} 
 
-{% block title %}02.Swig&Bootstrap{%endblock%} 
+{% block title %}02.Swig&Bootstrap.User{%endblock%} 
 
 {% block body %}class="hold-transition skin-blue sidebar-collapse sidebar-mini"{%endblock%} 
 
@@ -29,7 +29,7 @@
                 <div class="box box-info">
                     <div id="toolbar_account"></div>
                     <div class="box-body">
-                        <p>用户管理 在这里填写内容</p>
+                        <p>用户管理 在这里填写内容 我在这里SHUCHENG</p>
                     </div>
                 </div>
             </div>

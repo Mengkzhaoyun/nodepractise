@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Swig Express' });
+  res.render('index.tpl', { title: 'Swig Express' });
 });
 
 module.exports = router;

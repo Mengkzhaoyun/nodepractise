@@ -1,6 +1,6 @@
 {% extends 'layout.tpl' %} 
 
-{% block title %}02.Swig&Bootstrap{%endblock%} 
+{% block title %}02.Swig&Bootstrap.Department{%endblock%} 
 
 {% block body %}class="hold-transition skin-blue sidebar-collapse sidebar-mini"{%endblock%} 
 
