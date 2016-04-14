@@ -1,4 +1,4 @@
-{% extends 'layout.tpl' %} 
+{% extends 'parent/layout.tpl' %} 
 
 {% block title %}02.Swig&Bootstrap{%endblock%} 
 

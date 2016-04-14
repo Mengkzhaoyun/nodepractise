@@ -1,4 +1,4 @@
-{% extends 'layout-admin.tpl' %} 
+{% extends 'parent/layout-admin.tpl' %} 
 
 {% block title %}{% endblock %} 
 
