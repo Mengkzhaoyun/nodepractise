@@ -1,7 +1,6 @@
 module.exports = function(grunt) {
-
-    // Project configuration.
     grunt.initConfig({
+        //将views/*.tpl编译输出为htmls/*.html
         swig: {
             default_options: {
                 options: {
@@ -11,9 +10,9 @@ module.exports = function(grunt) {
                     }
                 },
                 expand: true,
-                cwd: 'views/',
-                dest: 'tmp/',
+                cwd: 'views/',                
                 src: ['*.tpl'],
+                dest: 'htmls/',
                 ext: '.html'
             }
         }
