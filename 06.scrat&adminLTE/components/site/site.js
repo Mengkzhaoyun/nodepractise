@@ -4,7 +4,10 @@
 var each = require('each');
 var extend = require('extend');
 var footer = require('footer');
+var head = require('head');
 var menu = require('menu');
+var tools = require('tools');
+var AdminLTE = require('AdminLTE');
 
 // 内部变量
 var lastView, timer;
@@ -136,4 +139,8 @@ exports.render = function(dom){
     menu.render(document.getElementById('site-menu'));
     // 渲染footer模块
     footer.render(document.getElementById('site-footer'));
+    // 渲染head模块
+    head.render(document.getElementById('site-head'));
+    // 渲染tools模块
+    tools.render(document.getElementById('site-tools'));    
 };

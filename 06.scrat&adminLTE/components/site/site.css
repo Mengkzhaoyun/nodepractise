@@ -1,8 +1,9 @@
 /**
  * 可以在css的注释中使用 `@require` 来声明依赖关系
+ * @require bootstrap
  * @require font-awesome
- * @require ../markdown/markdown.css
- * @require ../highlight/github.css
+ * @require ionicons
+ * @require ../AdminLTE/skins/_all-skins.css
  */
 
 .site-views {
