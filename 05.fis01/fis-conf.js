@@ -14,15 +14,15 @@ fis.config.merge({
                 url: '/Static/$1',
                 //指定文件不产出MD5戳
                 useHash: false,
-                release: '/Static/$1'
+                release: '/static/$1'
             },
             {
                 //查找所有Assets目录下的js,css,png文件
                 reg: /^\/Assets\/(.*\.(?:js|css|png))/i,
                 //生成新的url '/myappAssets/xxxx'
-                url: '/myappAssets/$1',
+                url: '/static/myapp/$1',
                 //js/css/png打上md5标记生成到/myappAssets/xxx目录下
-                release: '/myappAssets/$1'
+                release: '/static/myapp/$1'
             },            
             {
                 //所有根目录下的.html文件
