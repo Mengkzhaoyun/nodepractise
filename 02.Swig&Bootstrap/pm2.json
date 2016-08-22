@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "swigsamples",
+            "script": "./bin/www",
+            
+            "instances": 4,
+            "exec_mode": "cluster_mode",
+            "watch": true
+        }
+    ]
+}
